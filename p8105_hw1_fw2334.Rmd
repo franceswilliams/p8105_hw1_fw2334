@@ -12,6 +12,7 @@ library(tidyverse)
 # Problem 1
 
 ```{r}
+set.seed(1234)
 problem1_df = tibble(
   sample1 = rnorm(8),
   vec_logical = sample1 > 0,
